@@ -835,32 +835,53 @@ footer {
         top: -0.01em;
     }
 
-    .hero-content p {
-        font-size: 1rem;
-        margin-bottom: 40px;
-        padding: 0 10px;
+    .services,
+    .how-it-works,
+    .contact {
+        padding: 80px 0;
     }
 
-    .contact-card {
-        padding: 60px 30px;
+    .section-title {
+        margin-bottom: 60px;
     }
 
-    .hero-btns {
-        flex-direction: column;
-        width: 100%;
-        padding: 0 20px;
-        gap: 16px;
+    .bento-item,
+    .step {
+        padding: 40px 24px;
+        border-radius: 30px;
     }
 
-    .cta-button {
-        width: 100%;
-        padding: 14px 28px;
-        /* Slightly smaller global mobile buttons */
+    .hero-content h1 {
+        line-height: 1.25;
+        margin-bottom: 24px;
+        display: block;
     }
 
-    .trust-grid {
-        gap: 30px;
-    }
+    font-size: 1rem;
+    margin-bottom: 40px;
+    padding: 0 10px;
+}
+
+.contact-card {
+    padding: 60px 30px;
+}
+
+.hero-btns {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 20px;
+    gap: 16px;
+}
+
+.cta-button {
+    width: 100%;
+    padding: 14px 28px;
+    /* Slightly smaller global mobile buttons */
+}
+
+.trust-grid {
+    gap: 30px;
+}
 }
 
 @media (max-width: 480px) {
@@ -895,19 +916,32 @@ footer {
 }
 
 @media (max-width: 360px) {
+    header {
+        width: 98%;
+        padding: 5px 8px 5px 12px;
+    }
+
     header .logo {
-        font-size: 0.7rem;
-        gap: 6px;
+        font-size: 0.65rem;
+        gap: 4px;
     }
 
     header .logo-img {
-        width: 24px;
-        height: 24px;
+        width: 20px;
+        height: 20px;
     }
 
     header .cta-button.primary {
-        padding: 6px 10px;
-        font-size: 0.7rem;
+        padding: 5px 8px;
+        font-size: 0.6rem;
+    }
+
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .h1-highlight {
+        padding: 0.05em 0.25em;
     }
 }
 
