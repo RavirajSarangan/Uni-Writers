@@ -417,11 +417,21 @@ body.no-scroll {
     color: var(--white);
     font-weight: 900;
     filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.3));
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1-line-2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2em;
 }
 
 .h1-highlight {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     background: linear-gradient(135deg, #4c1d95 0%, #7c3aed 100%);
     padding: 0.05em 0.3em;
     border-radius: 0.2em;
@@ -429,9 +439,6 @@ body.no-scroll {
     box-shadow: 0 10px 30px rgba(76, 29, 149, 0.3);
     margin: 0 4px;
     line-height: 1;
-    position: relative;
-    top: -0.02em;
-    /* Micro-adjustment for optical baseline alignment */
 }
 
 /* Hero Specific Premium Glass Buttons */
