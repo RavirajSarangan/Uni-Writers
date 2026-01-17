@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             const whatsappMsg = `Uni Writers Query\nName: ${name}\nModule: ${module}\nMessage: ${message}`;
-            const whatsappUrl = `https://wa.me/94770123447?text=${encodeURIComponent(whatsappMsg)}`;
+            const whatsappUrl = `https://wa.me/94770123449?text=${encodeURIComponent(whatsappMsg)}`;
 
             window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
         });
