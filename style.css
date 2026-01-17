@@ -857,31 +857,32 @@ footer {
         display: block;
     }
 
-    font-size: 1rem;
-    margin-bottom: 40px;
-    padding: 0 10px;
-}
+    .hero-content p {
+        font-size: 1rem;
+        margin-bottom: 40px;
+        padding: 0 10px;
+    }
 
-.contact-card {
-    padding: 60px 30px;
-}
+    .contact-card {
+        padding: 60px 30px;
+    }
 
-.hero-btns {
-    flex-direction: column;
-    width: 100%;
-    padding: 0 20px;
-    gap: 16px;
-}
+    .hero-btns {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 20px;
+        gap: 16px;
+    }
 
-.cta-button {
-    width: 100%;
-    padding: 14px 28px;
-    /* Slightly smaller global mobile buttons */
-}
+    .cta-button {
+        width: 100%;
+        padding: 14px 28px;
+        /* Slightly smaller global mobile buttons */
+    }
 
-.trust-grid {
-    gap: 30px;
-}
+    .trust-grid {
+        gap: 30px;
+    }
 }
 
 @media (max-width: 480px) {
